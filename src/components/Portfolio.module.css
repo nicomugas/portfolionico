@@ -1,0 +1,19 @@
+.container {
+    position: relative;
+   
+
+}
+
+.hijo {
+  
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    margin-top: 100px;
+    width: 75%;
+    border: solid 1px;
+    border-color: grey;
+    border-radius: 10px;
+    
+}
