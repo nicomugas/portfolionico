@@ -1,6 +1,7 @@
 import React from "react";
+import BotonHome from "./BotonHome";
 import s from "./Home.module.css";
-import skills from "./img/skills.gif"
+import ContactBar from "./ContactBar";
 
 export default function Home() {
 
@@ -8,18 +9,21 @@ export default function Home() {
 
     return (
         <div className={s.container}>
-            <div className={s.hijo}>
-                <p><h3>SOBRE MI</h3></p>
-                <p><h2>Hola soy Nico Mugas</h2></p>
-                <p>ANALISTA DE SISTEMAS || FULL STACK WEB DEVELOPER</p>
-                <p>Me gusta mucho la tecnología, y estar en continuo aprendizaje.  </p>
-                <p>Recientemente he finalizado una capacitación en Node JS - JavaScript - React Redux, y actualmente me interesaría seguir desarrollandome en dichas tecnologias, sobre la base de mi carrera informática adquirida.
-                    Altamente comprometido con los proyectos y el trabajo en equipo. </p>
-                
-                <h3>Skills</h3>
-                <img src={skills} width="750px"></img>
-            </div>
 
+            <div className={s.main_left_container}>
+                <h3>NICOLÁS </h3>
+                <h1 className={s.titleApp}>MUGAS</h1>
+                <h2>F u l l &nbsp;  S t a c k &nbsp;  D e v e l o p e r</h2>
+                <h2>A n a l i s t a  &nbsp; d e&nbsp;   S i s t e m a s</h2>
+                <div><BotonHome /> </div>
+                
+               
+
+
+
+
+            </div>
+            <div><ContactBar/></div>    
 
         </div>
     )

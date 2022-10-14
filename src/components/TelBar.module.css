@@ -1,0 +1,22 @@
+.sub_div {
+    position: absolute;
+    margin-top: 0.7rem;
+    margin-left:95rem;
+   
+
+    color: rgb(240, 237, 237);
+    font-family: 'Verdana', sans-serif;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: lighter;
+    
+}
+
+.iconitos {
+    float: left;
+    top: 20px;
+    right: 20px;  
+    color: white;
+    width: 50px;
+
+}

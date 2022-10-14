@@ -1,0 +1,31 @@
+.sub_div {
+    position: absolute;
+    bottom: 20px;
+    margin-left: 8rem;
+}
+
+.iconitos {
+    float: left;
+    top: 20px;
+    right: 20px;  
+    color: white;
+    width: 50px;
+
+}
+
+.iconitos :hover {
+    color: #6344b7;
+   
+  }
+
+  .fullscreen {
+    float: right;
+    top: 20px;
+    right: 20px;  
+    color: white;
+    width: 50px;
+   
+    
+    margin-left: 80rem;
+
+}
