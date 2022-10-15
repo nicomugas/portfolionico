@@ -1,0 +1,22 @@
+.sub_div {
+    position: absolute;
+    bottom: 0px;
+    margin-left: 0rem;
+    margin-bottom: -8rem;
+}
+
+.iconitos {
+    float: left;
+    top: 20px;
+    right: 50px;  
+    color: white;
+    margin-right: 25px;
+    margin-top: 15px;
+   
+
+}
+
+.iconitos :hover {
+    color: #004e71;
+   
+  }
