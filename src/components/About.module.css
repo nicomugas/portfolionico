@@ -47,7 +47,13 @@
 
 .hijo2 {
     position: absolute;
+    margin-right: 150px;
     
-   border-radius: 15px;
     left: 70%; 
+}
+
+img {
+    border-radius: 55px;
+    margin-top: 40px;
+
 }
