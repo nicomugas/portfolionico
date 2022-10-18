@@ -1,45 +1,29 @@
-import React from "react";
+
+import React, { useRef } from 'react';
+import emailjs from '@emailjs/browser';
 import s from "./Contacto.module.css";
 import ContactBar from "./ContactBar";
-const nodemailer = require("nodemailer");
+//const nodemailer = require("nodemailer");
 
 
-export default function Contacto() {
 
-    async function sendmail() {
-        // Generate test SMTP service account from ethereal.email
-        // Only needed if you don't have a real mail account for testing
-        let testAccount = await nodemailer.createTestAccount();
-      
-        // create reusable transporter object using the default SMTP transport
-        let transporter = nodemailer.createTransport({
-          host: "smtp.ethereal.email",
-          port: 587,
-          secure: false, // true for 465, false for other ports
-          auth: {
-            user: testAccount.user, // generated ethereal user
-            pass: testAccount.pass, // generated ethereal password
-          },
-        });
-      
-        // send mail with defined transport object
-        let info = await transporter.sendMail({
-          from: '"Fred Foo 👻" <foo@example.com>', // sender address
-          to: "bar@example.com, baz@example.com", // list of receivers
-          subject: "Hello ✔", // Subject line
-          text: "Hello world?", // plain text body
-          html: "<b>Hello world?</b>", // html body
-        });
-      
-        console.log("Message sent: %s", info.messageId);
-        // Message sent: <b658f8ca-6296-ccf4-8306-87d57a0b4321@example.com>
-      
-        // Preview only available when sending through an Ethereal account
-        console.log("Preview URL: %s", nodemailer.getTestMessageUrl(info));
-        // Preview URL: https://ethereal.email/message/WaQKMgKddxQDoou...
-      }
-      
-      //main().catch(console.error);
+export default function Conctacto() {
+
+    const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs.sendForm('contact_serivicio', 'template_dbzgwcp', form.current, 'E9WpeF3BifsqqLxss')
+      .then((result) => {
+          console.log(result.text);
+          e.target.reset();
+          alert("mensaje enviado")
+          e.target.result.value="hola";
+      }, (error) => {
+          console.log(error.text);
+      });
+  };
 
     return (
         <div className={s.container}>
@@ -48,11 +32,12 @@ export default function Contacto() {
                 
 
                 <div>
-                    <form>
-                        <input placeholder="Nombre..."/>
-                        <input placeholder="Email..."/>
-                        <textarea placeholder="Mensaje..."/>
-                        <button type="submit" className={s.button} onClick={sendmail()} value="Enviar">Enviar</button>
+                <form ref={form} onSubmit={sendEmail}>
+                        <input placeholder="Nombre..." type="text" name="user_name"/>
+                        <input placeholder="Email..." type="email" name="user_email"/>
+                        <textarea placeholder="Mensaje..." name="message"/>
+                        <input  type="submit"  className={s.button} value="Enviar"/>
+                        <label name="result"></label>
 
                     </form>
                 </div>             
