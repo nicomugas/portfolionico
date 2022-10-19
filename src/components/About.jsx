@@ -1,7 +1,7 @@
 import React from "react";
 import s from "./About.module.css";
 import SkillsBar from "./SkillsBar";
-import foto from "./img/foto.jpg"
+import foto from "./img/foto.png"
 
 export default function About() {
 

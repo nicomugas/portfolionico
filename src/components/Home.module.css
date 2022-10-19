@@ -1,80 +1,33 @@
 .container {
-    
-    background-image:  url("./img/backgroundHome.jpg") ;
+    background-image: url("./img/backgroundHome.jpg");
     background-size: cover;
     background-position: center;
     height: 100vh;
-    margin-top: 30px;
-    
-   
-
 }
 
-.hijo {
-  
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%); 
-    margin-top: 343px;
-    width: 50%;
-    border: solid 1px;
-    border-color: grey;
-    border-radius: 10px;
-    text-align: justify;
-    padding: 15px;
-    
-}
-
-
-.main_left_container{
-    width: 960px;
-    padding-top: 17rem;
+.contenido {
     padding-left: 8rem;
-    position: relative;
-}
-
-.main_left_container h1{
-    color: white;   
-    font-size: 70px;
-    margin-bottom: 5%;
-}
-
-.main_left_container h3{
-    color: white;
-    font-weight: lighter;
-    
-    font-size: 22px;
-    margin-bottom: -6%;
-}
-.main_left_container h2{
-    color: white;
-    font-weight: lighter;
-    font-size: 20px;
-    margin-bottom: -8%;
-}
-
-.main_left_container h4{
-    color: white;
-    font-weight: lighter;
-    font-size: 20px;
-    margin-bottom: 10%;
-    border: 1px white solid;
-    border-radius: 8px;
-    height: 40px;
-    width: 100px;
-}
-.main_left_container .left_paragraph{
-  align-items: center;
-  display: flex;
-  justify-content: center;
-  margin-bottom: 3%;
-}
-
-.left_paragraph p{
-    color: white;
+    padding-top: 300px;
    
-    font-size: 20px;
-    width: 23rem;
-    text-align:left
 }
+
+.nombre {
+    /*nombre*/
+    color: white;
+    font-size: 22px;  
+}
+
+.apellido {
+    color: white;
+    font-size: 70px;
+    font-weight: bold;   
+}
+
+.que {   
+    color: white;
+    font-size: 20px;
+    padding-top: 2px;
+    
+}
+
+

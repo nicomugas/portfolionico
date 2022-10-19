@@ -12,14 +12,14 @@ import Portfolio from './components/Portfolio';
 
 function App() {
   return (
-    <BrowserRouter> 
-       <Navbar/>       
-        <Routes>
-        <Route exact path='/' element={<Home/>} />
-          <Route exact path='/About' element={<About/>} />
-          <Route exact path="/Portfolio" element={<Portfolio/>} />
-          <Route path='/Contacto' element={<Contacto/>} />
-        </Routes>     
+    <BrowserRouter>
+      <Navbar />
+      <Routes>
+        <Route exact path='/' element={<Home />} />
+        <Route exact path='/About' element={<About />} />
+        <Route exact path="/Portfolio" element={<Portfolio />} />
+        <Route path='/Contacto' element={<Contacto />} />
+      </Routes>
     </BrowserRouter>
   )
 }
