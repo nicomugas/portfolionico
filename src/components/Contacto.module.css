@@ -1,81 +1,73 @@
 .container {
-    position: relative;
+    
     background-color: #131419;
     background-size: cover;
     background-position: center;
-    height: 100vh;
-    margin-top: 50px;
+    height: 100vh;   
     font-family: Verdana, Geneva, Tahoma, sans-serif;
    
 
 }
 
-.hijo {
-  
+.contenido {
     position: absolute;
-    
-   
-    margin-left: 70px;
-    margin-top: 40px;
-    width: 90%; 
-    /* border: solid 1px;
-    border-color: grey;
-    border-radius: 10px; */
-    text-align: justify;
-    padding: 15px;
+    padding-left: 8rem;
+    margin-top: 50px;
+    padding-top: 80px;
     color: white;
-    
+   
 }
 
-.hijo h1{
-    color: white;   
-    font-size: 40px;
-    margin-bottom: 5px;
-    border-bottom: 4px #004e71 solid  ;
-    
+.title{
+    color: white; 
+    width: 50%;  
+    font-size: 25px;
+    font-weight: 800;
+    margin-bottom: 5%;
+    border-bottom: 4px #004e71 solid;    
 }
+
 
 .contactbar {
-    margin-top: 40px;
-    
+    margin-left: 40%;
+    margin-top: 40px;    
 }
 
 form {
-    margin: 0 auto; 
-    width:700px;   
-    background-color:  #131419; 
-    padding: 35px; 
+    margin-left: 50%;
+    width:600px;   
+    background-color:  #131419;    
     border-radius: 10px;
     
  }
 
  input {
     padding: 5px; 
-    width: 500px;
-    height: 60px;
+    width: 400px;
+    height: 30px;
     border-radius: 5px;
     margin-bottom: 15px;
-    border: #004e71 solid 4px;
-    font-size: 24px;
+    border: #004e71 solid 3px;
+    font-size: 14px;
 }
 
 textarea {
-    width: 500px;
+    width: 400px;
     padding: 5px; 
-    height: 200px;
+    height: 180px;
     border-radius: 5px;
     margin-bottom: 15px;
     border: #004e71 solid 4px;
-    font-size: 24px;
+    font-size:14px;
 }
 
 button {
-    width: 40%;
-    height: 40px;
+    width: 150px;
+    height: 340px;
     margin-left: 15%;
     background-color:#004e71   ;
     border-radius: 5px;
-    font-size: 22px;
+    font-size: 18px;
 }
 
 button hover {

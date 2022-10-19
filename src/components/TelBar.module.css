@@ -7,16 +7,15 @@
     color: rgb(240, 237, 237);
     font-family: 'Verdana', sans-serif;
     text-decoration: none;
-    font-size: 16px;
+    font-size: 14px;
     font-weight: lighter;
     
 }
 
 .iconitos {
-    float: left;
-    top: 20px;
-    right: 20px;  
+    float: left;     
     color: white;
     width: 50px;
+    margin: -6px;
 
 }

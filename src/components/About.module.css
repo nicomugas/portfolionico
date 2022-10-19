@@ -1,59 +1,62 @@
-.container {
-    position: relative;
+.container {   
     background-color: #131419;
     background-size: cover;
     background-position: center;
-    height: 100vh;
-    margin-top: 50px;
+    height: 100vh;   
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-   
-
 }
 
-.hijo {
-  
+.contenido {
     position: absolute;
-    
-    top: 20%;
-    left: 30%;
-    transform: translate(-50%, -50%); 
-    margin-top: 180px;
-    width: 50%; 
-    /* border: solid 1px;
-    border-color: grey;
-    border-radius: 10px; */
-    text-align: justify;
-    padding: 15px;
+    padding-left: 8rem;
+    margin-top: 50px;
+    padding-top: 90px;
     color: white;
-    
+   
 }
 
-
-.hijo h1{
-    color: white;   
-    font-size: 40px;
+.title{
+    color: white; 
+    width: 50%;  
+    font-size: 25px;
+    font-weight: 800;
     margin-bottom: 5%;
     border-bottom: 4px #004e71 solid  ;
     
 }
 
-.hijo h4{
+.mail{
     color: white;   
-    font-size: 16px;
-    margin-top: -22px; 
-    font-weight: lighter;  
+    font-size: 14px;
+    margin-top: -27px; 
+    font-weight: lighter;     
+}
+
+.saludo{
+    color: white;   
+    font-size: 20px;
+    font-weight: 800;
+    margin-top: 15px;
+}
+
+.title2{
+    color: white; 
+    font-size: 14px;
+    margin-top: 8px;   
     
 }
 
+
+
 .hijo2 {
     position: absolute;
-    margin-right: 150px;
-    
-    left: 70%; 
+     
+    left: 60%;
+    margin-bottom: 40%;
 }
 
 img {
     border-radius: 5px;
-    margin-top: 40px;
+  
 
 }

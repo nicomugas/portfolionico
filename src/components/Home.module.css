@@ -7,26 +7,28 @@
 
 .contenido {
     padding-left: 8rem;
-    padding-top: 300px;
+    padding-top: 220px;
    
 }
 
 .nombre {
     /*nombre*/
     color: white;
-    font-size: 22px;  
+    font-size: 18px;  
 }
 
 .apellido {
+    font-size: 60px;
+    font-weight:700;  
     color: white;
-    font-size: 70px;
-    font-weight: bold;   
+    
+    
 }
 
 .que {   
     color: white;
-    font-size: 20px;
-    padding-top: 2px;
+    font-size: 17px;
+    padding-top: 1px;
     
 }
 

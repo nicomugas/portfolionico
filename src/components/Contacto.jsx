@@ -27,8 +27,9 @@ export default function Conctacto() {
 
     return (
         <div className={s.container}>
-            <div className={s.hijo}>
-                <h1>Contactame</h1>
+            <div className={s.contenido}>
+               
+                <div className={s.title}>CONTACTAME</div>
                 
 
                 <div>

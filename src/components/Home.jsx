@@ -9,19 +9,10 @@ export default function Home() {
 
     return (
         <div className={s.container}>
-            {/* <div className={s.contenido}>
-                
-                <div className={s.apellido}>MUGAS</div>
-                <div className={s.fullstack}>F u l l &nbsp;  S t a c k &nbsp;  D e v e l o p e r</div>
-                <div className={s.analista}>A n a l i s t a  &nbsp; d e&nbsp;   S i s t e m a s</div>
-                <div className={s.botones}><BotonHome /> </div>
 
-
-            </div> */}
             <div className={s.contenido}>
-                
-            <div className={s.nombre}>NICOLÁS </div>
-            <div className={s.apellido}>MUGAS</div>
+                <div className={s.nombre}>NICOLÁS </div>
+                <div className={s.apellido}>MUGAS</div>
                 <div className={s.que}>F u l l &nbsp;  S t a c k &nbsp;  D e v e l o p e r</div>
                 <div className={s.que}>A n a l i s t a  &nbsp; d e&nbsp;   S i s t e m a s</div>
                 <div ><BotonHome /> </div>

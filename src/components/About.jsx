@@ -9,24 +9,23 @@ export default function About() {
 
     return (
         <div className={s.container}>
-            <div className={s.hijo}>
-                <h1>SOBRE MI</h1>
-                <h4>nicomugas@gmail.com</h4>
-                <p><h2>Hola soy Nico Mugas</h2></p>
-                <p>ANALISTA DE SISTEMAS || FULL STACK WEB DEVELOPER</p>
-                <p>Me gusta mucho la tecnología, y estar en continuo aprendizaje.  </p>
-                <p>Recientemente he finalizado una capacitación en Node JS - <br /> JavaScript - React Redux, y actualmente me interesaría seguir<br /> desarrollandome en dichas tecnologias, sobre la base de mi<br /> carrera informática adquirida.</p>
-                <p>   Altamente comprometido con los proyectos y el trabajo en equipo. </p>
+            <div className={s.contenido}>
+                <div className={s.title}>SOBRE MI</div>
+                <div className={s.mail}>nicomugas@gmail.com</div>
+                
+                <div className={s.saludo}>Hola soy Nico Mugas</div>
+                <div className={s.title2}>ANALISTA DE SISTEMAS || FULL STACK WEB DEVELOPER</div>
+                <div className={s.title2}>Me gusta mucho la tecnología, y estar en continuo aprendizaje. 
+                Recientemente he finalizado una capacitación en Node JS - <br /> JavaScript - React Redux, y actualmente me interesaría seguir<br /> desarrollandome en dichas tecnologias, sobre la base de mi<br /> carrera informática adquirida.
+                Altamente comprometido con los proyectos y el trabajo en equipo. </div>
 
-                <p>
-                    <h3>Skills</h3>
-                </p>
-                {/* <img src={skills} width="750px"></img> */}
-                <p>
+                <div><h3>Skills</h3></div>
+               
+                <div>
                     <SkillsBar />
-                </p>
+                </div>
             </div>
-            <div className={s.hijo2}> <img src={foto} alt="nn" width="512px" /></div>
+             <div className={s.hijo2}> <img src={foto} alt="nn" width="400px" /></div> 
        
 
 
