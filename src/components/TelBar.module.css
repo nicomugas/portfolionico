@@ -1,13 +1,13 @@
 .sub_div {
     position: absolute;
-    margin-top: 0.7rem;
-    margin-left:95rem;
+    margin-top: 12px;
+    margin-left:80%;
    
 
     color: rgb(240, 237, 237);
     font-family: 'Verdana', sans-serif;
     text-decoration: none;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: lighter;
     
 }
