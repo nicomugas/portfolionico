@@ -19,3 +19,12 @@
     margin: -6px;
 
 }
+
+@media all and (max-width: 576px) {
+
+    .sub_div {
+       display: none;
+        
+    }
+ 
+  }

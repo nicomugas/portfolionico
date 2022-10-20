@@ -33,3 +33,29 @@
 }
 
 
+@media only screen and (max-width: 576px) {
+
+    .container {      
+        background-position:right;        
+    }
+
+    .contenido {
+        padding-left: 4rem;
+        padding-top: 220px;
+       
+    }
+    
+    .nombre {
+        /*nombre*/
+        color: white;
+        font-size: 14px;  
+    }
+    
+    .apellido {
+        font-size: 40px;
+        font-weight:700;  
+        color: white;
+        
+        
+    }
+}

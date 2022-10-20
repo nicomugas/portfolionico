@@ -70,6 +70,6 @@ button {
     font-size: 18px;
 }
 
-button hover {
+button:hover {
     background-color:#72bfe2   ;
 }

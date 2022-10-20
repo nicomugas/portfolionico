@@ -34,8 +34,8 @@ export default function Conctacto() {
 
                 <div>
                 <form ref={form} onSubmit={sendEmail}>
-                        <input placeholder="Nombre..." type="text" name="user_name"/>
-                        <input placeholder="Email..." type="email" name="user_email"/>
+                        <input placeholder="Nombre..." type="text" name="user_name" required="true"/>
+                        <input placeholder="Email..." type="email" name="user_email" required="true"/>
                         <textarea placeholder="Mensaje..." name="message"/>
                         <input  type="submit"  className={s.button} value="Enviar"/>
                         <label name="result"></label>

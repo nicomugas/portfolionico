@@ -18,14 +18,18 @@
    
   }
 
-  .fullscreen {
-    float: right;
-    top: 20px;
-    right: 20px;  
-    color: white;
-    width: 50px;
+
+
+@media only screen and (max-width: 576px) {
+
+
+.sub_div {
+    position: absolute;
+    margin-left: 20%;
+    bottom: 160px;
+
    
-    
-    margin-left: 80rem;
+}
+
 
 }

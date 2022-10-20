@@ -9,6 +9,7 @@ export default function Navbar() {
 
     return (
         <div className={s.nav}>
+           
             <ul className={s.menu}>
             <li ><Link to="/">Home</Link> </li>
                 <li ><Link to="/About">Sobre Mi</Link> </li>
