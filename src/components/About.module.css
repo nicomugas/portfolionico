@@ -60,3 +60,40 @@ img {
   
 
 }
+
+@media only screen and (max-width: 576px) {
+
+    .contenido {
+        position: absolute;
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+        margin-top: 50px;
+        padding-top: 90px;
+        color: white;
+        
+       
+    }
+
+    .mail{
+        color: white;   
+        font-size: 13px;
+        margin-top: -15px; 
+        font-weight: lighter;     
+    }
+
+    .hijo2 {
+       display: none;
+    }  
+
+    .title2{
+        color: white; 
+        font-size: 16px;
+        margin-top: 10px; 
+        text-align: justify;  
+        
+    }
+    
+
+    
+
+}

@@ -3,6 +3,7 @@ import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 import s from "./Contacto.module.css";
 import ContactBar from "./ContactBar";
+import TelBar from './TelBar';
 //const nodemailer = require("nodemailer");
 
 
@@ -42,7 +43,8 @@ export default function Conctacto() {
 
                     </form>
                 </div>             
-                <div className={s.contactbar}><ContactBar/></div>   
+                <div className={s.contactbar}><ContactBar/></div>  
+                <div className={s.telbar}><TelBar/></div>   
             </div>
         </div>
     )

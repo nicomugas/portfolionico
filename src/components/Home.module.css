@@ -36,7 +36,8 @@
 @media only screen and (max-width: 576px) {
 
     .container {      
-        background-position:right;        
+        background-position:right;   
+        background-size: cover;     
     }
 
     .contenido {
