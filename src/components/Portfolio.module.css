@@ -53,5 +53,20 @@
 
 @media only screen and (max-width: 576px) {
 
+    .hijo {                   
+        margin-left: 0px;        
+    }
 
+    .hijo h1{
+        
+        font-size: 20px;
+       
+        
+    }
+
+    .trabajos {
+        float: right;        
+    
+    }
+    
 }
