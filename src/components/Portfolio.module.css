@@ -2,8 +2,13 @@
     
     background-color: #131419;
     background-size: cover;
-    background-position: center;
-    height: 100vh;   
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height:100vh;
+    margin :0;
+    
+    
     font-family: Verdana, Geneva, Tahoma, sans-serif;
    
 
@@ -16,7 +21,7 @@
    
     margin-left: 70px;
     margin-top: 40px;
-    width: 80%; 
+    width: 90%; 
     /* border: solid 1px;
     border-color: grey;
     border-radius: 10px; */

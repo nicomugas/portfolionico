@@ -13,7 +13,7 @@ export default function Portfolio() {
             <div className={s.hijo}>
             <h1>PORTFOLIO</h1>
                 <div className={s.trabajos}><Dogs/> </div>    
-                <div className={s.trabajos}><Ecommerce/> </div>    
+               <div className={s.trabajos}><Ecommerce/> </div>    
                 <div className={s.trabajos}><Clima/> </div>            
 
                 

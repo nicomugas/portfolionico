@@ -13,12 +13,11 @@ export default function Ecommerce() {
             <div className={s.content}>
 
                 <p> Trabajo Grupal para finalizacion Cursada Henry.
-Muestra los productos provenientes de base de datos, pudiendo aplicar filtros, ordenamientos y pudiendo acceder a su detalle. (todo realizado en backend)
+Muestra los productos provenientes de base de datos, pudiendo aplicar filtros, ordenamientos y  acceder a su detalle. (realizado en backend)
 Login, registro, olvide mi contraseña, login con google. 
 Carrito de Compras, en Base de Datos y Local Storage. 
-Posibilidad de pagar con Mercado Pago. Registro de Pago en Bd. 
-Administrador del Cliente, ver las compras realizadas, actualizar sus datos y hacer reviews de productos. 
-Backoffice del administrador, permite agregar o quitar productos, categorías. Ver compras realizadas y administrar usuarios. </p>
+Posibilidad de pagar con Mercado Pago. 
+Administrador del Cliente y Backoffice del administrador (ver las compras realizadas, actualizar datos, hacer reviews de productos, administracion de productos y categorias)</p>
                 <p className={s.tecnologias}>
                     Tecnologias utilizadas
                     
@@ -26,7 +25,7 @@ Backoffice del administrador, permite agregar o quitar productos, categorías. V
                         BACK: Express | Typescript Extrict Mode | Prisma | Postgres Sql  
                         LOGIN: Passport | JWT 
                         PAGOS: MercadoPago 
-                        Front
+                       
 
        
                 </p>

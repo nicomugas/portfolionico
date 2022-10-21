@@ -1,10 +1,11 @@
 .container {
     
     background-image:  url("../img/clima.jpg") ;
-    background-size: cover;
-    background-position: center;
-    height: 562px;
-    width: 340px;
+    background-size:100%;
+    background-position:initial;
+    background-position-y: -80px;
+    height: 400px;
+    width: 500px;
     margin-top: 30px;
     border-radius: 20px;
     opacity: 0.4;
@@ -41,8 +42,8 @@
 }
 
 .content {
-    background-color: black;
-    opacity: 0.9;
+    /* background-color: black;
+    opacity: 0.9; */
     padding-left: 20px;
     padding-right: 20px;
     font-size: 14px;
