@@ -27,7 +27,7 @@ export default function About() {
                 </div>
 
                 <div className={s.title2}>
-                     Te dejo mas info <a href="https://drive.google.com/file/d/1vgGQ2iw3V1CQ1-LOYzqBvdbB6wO_Otam/view?usp=sharing" target="_blank" >acá</a>
+                     Te dejo mas info <a href="https://drive.google.com/file/d/1vgGQ2iw3V1CQ1-LOYzqBvdbB6wO_Otam/view?usp=sharing" target="_blank" >acá</a>.
                 </div>
 
                 <div><h3>Skills</h3></div>

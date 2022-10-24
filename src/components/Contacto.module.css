@@ -13,7 +13,7 @@
     position: absolute;
     padding-left: 8rem;
     margin-top: 40px;
-    padding-top: 70px;
+    padding-top: 60px;
     color: white;
    
 }
@@ -24,7 +24,8 @@
     font-size: 25px;
     font-weight: 800;
     margin-bottom: 5%;
-    border-bottom: 4px #004e71 solid;    
+    border-bottom: 4px #004e71 solid;
+    line-height: 35px;    
 }
 
 
@@ -123,4 +124,12 @@ textarea {
         margin-top: 250px; 
 
     }
+
+    .title{
+        margin-left: 25px;
+        line-height: 55px;
+        width: 85%;
+    }
+
+    
 }
