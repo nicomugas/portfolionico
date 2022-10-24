@@ -17,10 +17,17 @@ export default function About() {
                 <div className={s.title2}>ANALISTA DE SISTEMAS || FULL STACK WEB DEVELOPER</div>
                 <div className={s.title2}>
                     
-                    Te cuento que me gusta mucho la tecnología y la programación, y esto me obliga a estar en continuo aprendizaje.
+                Te cuento que me gusta mucho la tecnología y la programación, y esto me obliga a estar en continuo aprendizaje.
                     Recientemente he finalizado una capacitación en Node JS - JavaScript - React - Redux, y  me interesaría seguir
-                     desarrollandome en dichas tecnologias, sobre la base de mi carrera informática adquirida.
-                    Altamente comprometido con los proyectos, y el trabajo en equipo.
+                     desarrollándome en dichas tecnologías, sobre la base de mi carrera informática adquirida.</div>
+                     <div className={s.title2}>
+                     Tengo experiencia en desarrollo de sistemas, como así tambíen en otras industrias. 
+
+                    Soy una persona que se compromete con los proyectos aportando mucha dedicación e ideas. Me gusta el trabajo en equipo y lo creo necesario para que los proyectos se lleven a cabo.
+                </div>
+
+                <div className={s.title2}>
+                     Te dejo mas info <a href="https://drive.google.com/file/d/1vgGQ2iw3V1CQ1-LOYzqBvdbB6wO_Otam/view?usp=sharing" target="_blank" >acá</a>
                 </div>
 
                 <div><h3>Skills</h3></div>
@@ -29,7 +36,7 @@ export default function About() {
                     <SkillsBar />
                 </div>
             </div>
-            <div className={s.hijo2}> <img src={foto} alt="nn" width="400px" /></div>
+            {/* <div className={s.hijo2}> <img src={foto} alt="nn" width="400px" /></div> */}
 
 
 
