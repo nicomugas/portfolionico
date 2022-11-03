@@ -17,9 +17,12 @@ export default function About() {
                 <div className={s.title2}>ANALISTA DE SISTEMAS || FULL STACK WEB DEVELOPER</div>
                 <div className={s.title2}>
                     
-                Te cuento que me gusta mucho la tecnología y la programación, y esto me obliga a estar en continuo aprendizaje.
-                    Recientemente he finalizado una capacitación en Node JS - JavaScript - React - Redux, y  me interesaría seguir
-                     desarrollándome en dichas tecnologías, sobre la base de mi carrera informática adquirida.</div>
+                Full Stack Developer, desarrollador Front end y Back end. Poseo experiencia trabajando en desarrollos API
+REST utilizando tecnologías como Javascript, TypeScript, NodeJS, React, Redux, SQL entre otras.
+Experiencia en la creación de Ecommerce y también liderando proyectos con personas a cargo. Me
+considero creativo, resolutivo y siempre comprometido con los proyectos desde el trabajo y el aporte de
+ideas. Amplia experiencia en administración de empresas. Me interesaría seguir desarrollándome en las
+tecnologías mencionadas, sobre la base de mi carrera informática adquirida.</div>
                      <div className={s.title2}>
                      Tengo experiencia en desarrollo de sistemas, como así tambíen en otras industrias. 
 
@@ -27,7 +30,7 @@ export default function About() {
                 </div>
 
                 <div className={s.title2}>
-                     Te dejo mas info <a href="https://drive.google.com/file/d/1vgGQ2iw3V1CQ1-LOYzqBvdbB6wO_Otam/view?usp=sharing" target="_blank" >acá</a>.
+                     Te dejo mas info en mi CV, descargalo <a href="https://drive.google.com/file/d/1uQaM95kv_5HLEHxz5oxW51T_hdhz6T46/view?usp=share_link" target="_blank" >acá</a>.
                 </div>
 
                 <div><h3>Skills</h3></div>
