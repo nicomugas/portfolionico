@@ -24,9 +24,7 @@ considero creativo, resolutivo y siempre comprometido con los proyectos desde el
 ideas. Amplia experiencia en administración de empresas. Me interesaría seguir desarrollándome en las
 tecnologías mencionadas, sobre la base de mi carrera informática adquirida.</div>
                      <div className={s.title2}>
-                     Tengo experiencia en desarrollo de sistemas, como así tambíen en otras industrias. 
-
-                    Soy una persona que se compromete con los proyectos aportando mucha dedicación e ideas. Me gusta el trabajo en equipo y lo creo necesario para que los proyectos se lleven a cabo.
+                    Me gusta el trabajo en equipo y lo creo necesario para que los proyectos se lleven a cabo.
                 </div>
 
                 <div className={s.title2}>
